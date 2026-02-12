@@ -377,3 +377,47 @@ body{
      .devs-name:hover{
         text-decoration: underline;
      }
+
+
+     /* #######################################
+
+          PRODUCTS MODAL DISPLAY STYLING
+
+          ###################################### */
+
+
+ .product-modal {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.7);
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background: white;
+     max-width: 700px;
+     width: 90%;
+     max-height: 90vh;
+     overflow-y: auto;
+    margin: 80px auto;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    position: relative;
+}
+
+.modal-content img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.close-btn {
+    float: right;
+    font-size: 24px;
+    cursor: pointer;
+}

@@ -128,5 +128,18 @@
 
   
 
+
+
+<script>
+    document.querySelectorAll(".buy-btn").forEach(btn => {
+  btn.addEventListener("click", () => {
+    const product = btn.dataset.product;
+    const message = `Hi Mullar Cycle Mart! I'd like to order the ${product}`;
+    const url = `https://wa.me/254706316378?text=${encodeURIComponent(message)}`;
+    window.open(url, "_blank");
+  });
+});
+
+</script>
 </body>
 </html
