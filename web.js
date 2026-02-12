@@ -82,7 +82,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 whatsappBtn.addEventListener("click", function() {
 
-    const phoneNumber = "254706316378"; // Your WhatsApp number
+    const phoneNumber = "254706316378"; 
 
     const message = `Hello, I would like to order:
 
